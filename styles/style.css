@@ -152,7 +152,7 @@
 }
 
 /***************************/
-/* SOME FACT STYLES         */
+/* SOME FACT STYLES        */
 /***************************/
 
 .fact-text__wrap {
@@ -292,19 +292,22 @@
   font-size: var(--regular-font-size);
 }
 
-.contact-form input {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 1rem;
+  border: 1px solid var(--secondary-color);
   border-radius: 0.8rem;
 }
 
 .cnt-btn {
   width: 100%;
+  margin-top: 1rem;
   font-size: var(--regular-font-size);
 }
 
 /***************************/
-/* FOOTER STYLES         */
+/* FOOTER STYLES           */
 /***************************/
 
 .footer {
