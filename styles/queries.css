@@ -4,8 +4,8 @@
 
 @media (max-width: 36em) {
   :root {
-    --heading-1-font-size: 5.2rem;
-    --heading-2-font-size: 3.6rem;
+    --heading-1-font-size: 4.4rem;
+    --heading-2-font-size: 3rem;
     --heading-3-font-size: 1.8rem;
     --regular-font-size: 1.4rem;
     --medium-font-size: 1.6rem;
@@ -79,7 +79,10 @@
     gap: 3rem;
   }
   .sp-logo {
-    max-width: 12rem;
+    max-width: 10rem;
+  }
+  .footer {
+    margin-bottom: 0rem;
   }
 }
 
