@@ -15,6 +15,12 @@
     /* 100 * 8px/16px= 50% */
     font-size: 50%;
   }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  /* Header Responsive */
   .header {
     position: relative;
   }
@@ -29,58 +35,98 @@
     background-color: var(--white-color);
     padding: 3.2rem;
   }
+
   .btn-close {
     display: block;
   }
+
+  /* Hero Section Responsive */
+
   .section__hero {
     margin-top: 23.1rem;
   }
+
+  /* Features Section Responsive */
+
   .section__features {
     padding: 9.6rem 0 0 0;
   }
+
   .features__row-1 {
     flex-direction: column;
   }
+
+  /* Features Love Section Responsive */
+
   .features__row-2 {
     grid-template-columns: 1fr;
     gap: 7.6rem;
     margin-top: 6rem;
   }
+
   .features-love-title {
     width: 90%;
   }
+
   .features-love-img {
     width: 100%;
     height: auto;
   }
+
   .features-love-img__wrap {
     text-align: center;
   }
+
   .btn-exp {
     transform: translate(0px, 2.4rem);
   }
+
   .btn-exp span {
     font-size: 4.5rem;
   }
+
+  /* Fact Section Responsive */
+
   .section__fact {
     margin-top: 12.8rem;
   }
+
   .fact-items__wrap {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 3rem;
   }
+
+  /* Sponsors Section Responsive */
+
   .section__sponsors {
     margin: 10rem 0 13rem 0;
   }
+
   .sponsors-logos__wrap {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
   }
+
   .sp-logo {
     max-width: 10rem;
   }
+
+  /* Contact Us Section Responsive */
+
+  .contact__wrap {
+    grid-template-columns: 1fr;
+    padding: 0 0 13rem 0;
+  }
+
+  .contact-form__wrap {
+    grid-row: 1;
+  }
+
+  /* Footer Section Responsive */
+
   .footer {
     margin-bottom: 0rem;
   }
